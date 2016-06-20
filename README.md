@@ -1,6 +1,6 @@
 
 ## Simple crud application using SpringBoot and Kotlin
-# SpringBoot + Kotlin + RESTFul + JPA
+# SpringBoot + Kotlin + RESTful + JPA
 
 
 --------------------------------------
