@@ -28,14 +28,18 @@ insert into client_service (name, password) values ('appadmin','admin')
 
 # Testing
 
---INSERT
+### INSERT
+
 curl -X POST -H "password: admin" -H "Content-Type:application/json" -d '{"key" : "lkj002", "email" : "zaraki@a.com.br"}' http://localhost:8080/base/email/v1/appadmin
 
---SELECT
+### SELECT
+
 curl -X GET -H "password: admin" http://localhost:8080/base/email/v1/appadmin/key/lkj002
 
---UPDATE
+### UPDATE
+
 curl -X PUT -H "password: admin" -H "Content-Type:application/json" -d '{"email" : "kenpachi.zaraki@a.com.br"}' http://localhost:8080/base/email/v1/appadmin/key/lkj002
 
---DELETE
+### DELETE
+
 curl -X DELETE -H "password: admin" http://localhost:8080/base/email/v1/appadmin/key/lkj002
