@@ -4,7 +4,6 @@ import com.brenosiqueira.base.email.commons.ErrorCode
 import com.brenosiqueira.base.email.model.boundary.*
 import com.brenosiqueira.base.email.repository.ClientServiceRepository
 import com.brenosiqueira.base.email.repository.EmailAddressRepository
-import com.brenosiqueira.base.email.repository.GenericRepository
 import com.brenosiqueira.base.email.service.EmailAddressService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.HttpStatus
