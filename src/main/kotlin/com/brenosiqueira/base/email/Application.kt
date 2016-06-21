@@ -7,11 +7,6 @@ import org.springframework.context.annotation.ComponentScan
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories
 import org.springframework.transaction.annotation.EnableTransactionManagement
 
-//@ComponentScan("com.brenosiqueira")
-//@EnableAutoConfiguration
-//@EnableTransactionManagement
-//@EnableJpaRepositories(basePackages = arrayOf("com.brenosiqueira.base.email.repository"))
-//@SpringBootApplication
 @SpringBootApplication
 open class Application {
 
