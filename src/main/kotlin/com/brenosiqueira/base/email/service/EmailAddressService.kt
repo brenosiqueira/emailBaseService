@@ -10,7 +10,6 @@ import com.brenosiqueira.base.email.repository.ClientServiceRepository
 import com.brenosiqueira.base.email.repository.EmailAddressRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
-import org.springframework.transaction.annotation.Transactional
 import java.util.*
 
 
