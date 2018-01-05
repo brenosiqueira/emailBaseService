@@ -23,9 +23,9 @@ create table email_address(
     client_service_id BIGINT,
     constraint fk_email_address_with_client_service foreign key (client_service_id) references client_service(id)
 )
-```
-insert into client_service (name, password) values ('appadmin','admin')
 
+insert into client_service (name, password) values ('appadmin','admin')
+```
 
 # Testing
 
